@@ -1,0 +1,26 @@
+@import "variables";
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  span {
+    padding: 12px 5px 0;
+    color: $logo-color;
+    font-family: $primary-font;
+    font-size: $primary-font-size;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  .logo {
+    max-width: 95px;
+    span {
+      font-size: $quaternary-font-size;
+    }
+  }
+}

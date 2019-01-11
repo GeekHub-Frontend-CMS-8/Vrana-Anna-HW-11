@@ -1,0 +1,37 @@
+@import "variables";
+
+.button-wrapper {
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin: 5px;
+
+  padding: 15px 26px 15px;
+  background-color: transparent;
+  border: 2px solid $primary-bg-color;
+  font-family: $primary-font;
+  color: $primary-bg-color;
+  font-size: $secondary-font-size;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $primary-bg-color;
+    color: $primary-color;
+    border: 2px solid $primary-bg-color;
+  }
+}
+
+.btn-contrast {
+  border: 2px solid $primary-color;
+  color: $primary-color;
+  &:hover {
+    background-color: $primary-color;
+    color: #cecece;
+    border: 2px solid $primary-color;
+}
+}

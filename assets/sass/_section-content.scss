@@ -1,0 +1,49 @@
+@import "variables";
+
+.section-content {
+  margin-top: 83px;
+  text-align: center;
+  justify-content: space-around;
+
+
+  .section-headline {
+
+    width: 186px;
+    margin: auto;
+    padding-bottom: 27px;
+    border-bottom: 5px solid transparent;
+    font-family: $tertiary-font;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.44px;
+  }
+
+  .content-text {
+    margin: 41px 75px 45px 69px;
+    font-family: $secondary-font;
+    font-size: $tertiary-font-size;
+    line-height: 25px;
+    letter-spacing: 1.4px;
+  }
+}
+
+.about-us-headline,
+.history-headline {
+  color: $primary-color;
+  border-image: url("../img/divider.png") 25 30 25 20 repeat;
+}
+
+.about-us-text,
+.history-text {
+  color: $primary-color;
+}
+
+.services-headline {
+  color: $primary-bg-color;
+  border-image: url("../img/divider-white.png") 25 30 25 20 repeat;
+}
+
+.services-text {
+  color: #cfcfcf;
+}

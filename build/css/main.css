@@ -1,0 +1,1109 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+main {
+  background-color: #e3e3e3;
+  box-sizing: border-box; }
+
+.primary-bg-color {
+  background-color: #ffffff; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Roman";
+  src: url("../fonts/crimsonroman/CrimsonText-Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Italic";
+  src: url("../fonts/crimsontextitalic/CrimsonText-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Amsdam-Regular";
+  src: url("../fonts/amsdam/Amsdam Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden; }
+
+main {
+  background-color: #e3e3e3;
+  box-sizing: border-box; }
+
+.primary-bg-color {
+  background-color: #ffffff; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Roman";
+  src: url("../fonts/crimsonroman/CrimsonText-Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Italic";
+  src: url("../fonts/crimsontextitalic/CrimsonText-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Amsdam-Regular";
+  src: url("../fonts/amsdam/Amsdam Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+.link {
+  text-decoration: none;
+  color: #3e3d3d;
+  cursor: pointer; }
+
+main {
+  background-color: #e3e3e3;
+  box-sizing: border-box; }
+
+.primary-bg-color {
+  background-color: #ffffff; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Roman";
+  src: url("../fonts/crimsonroman/CrimsonText-Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Italic";
+  src: url("../fonts/crimsontextitalic/CrimsonText-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Amsdam-Regular";
+  src: url("../fonts/amsdam/Amsdam Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+.header-wrapper {
+  margin-top: 27px;
+  padding: 18px 0 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+
+main {
+  background-color: #e3e3e3;
+  box-sizing: border-box; }
+
+.primary-bg-color {
+  background-color: #ffffff; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Roman";
+  src: url("../fonts/crimsonroman/CrimsonText-Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Italic";
+  src: url("../fonts/crimsontextitalic/CrimsonText-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Amsdam-Regular";
+  src: url("../fonts/amsdam/Amsdam Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .logo span {
+    padding: 12px 5px 0;
+    color: #757575;
+    font-family: "Montserrat-Regular", "Helvetica", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px; }
+
+@media only screen and (max-device-width: 767px) {
+  .logo {
+    max-width: 95px; }
+    .logo span {
+      font-size: 12px; } }
+
+main {
+  background-color: #e3e3e3;
+  box-sizing: border-box; }
+
+.primary-bg-color {
+  background-color: #ffffff; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Roman";
+  src: url("../fonts/crimsonroman/CrimsonText-Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Italic";
+  src: url("../fonts/crimsontextitalic/CrimsonText-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Amsdam-Regular";
+  src: url("../fonts/amsdam/Amsdam Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+#nav__main-menu,
+#nav > input {
+  display: none; }
+
+#nav > label {
+  color: #aaaaaa; }
+
+#nav > input:checked + #main-menu {
+  display: block; }
+
+#toggle-mobile-menu > input {
+  display: none; }
+
+#toggle-mobile-menu > label {
+  font-size: 14px;
+  position: absolute;
+  right: 20px;
+  width: 36px;
+  padding: 0;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+#main-menu {
+  display: none; }
+
+.menu-item-container {
+  padding: 0 15px;
+  cursor: pointer;
+  justify-content: flex-start; }
+  .menu-item-container:hover {
+    background-color: #d8d8d8;
+    border-left: 2px solid #757575;
+    transition: 0.3; }
+
+.menu-item {
+  color: #aaaaaa;
+  font-family: "Montserrat-Regular", "Helvetica", sans-serif;
+  font-size: 12px;
+  line-height: 50px;
+  text-transform: uppercase; }
+
+@media only screen and (min-device-width: 768px) {
+  #nav {
+    height: auto; }
+  #nav #main-menu {
+    display: flex; }
+  #nav > label {
+    display: none; }
+  #nav ul li {
+    display: inline-block; } }
+
+main {
+  background-color: #e3e3e3;
+  box-sizing: border-box; }
+
+.primary-bg-color {
+  background-color: #ffffff; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Roman";
+  src: url("../fonts/crimsonroman/CrimsonText-Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Italic";
+  src: url("../fonts/crimsontextitalic/CrimsonText-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Amsdam-Regular";
+  src: url("../fonts/amsdam/Amsdam Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+.social-links {
+  padding-left: 19px;
+  display: flex; }
+
+.fab {
+  padding: 3px;
+  color: #a4a4a4;
+  font-size: 12px; }
+
+.social-links li:not(:first-child):before {
+  content: " | "; }
+
+main {
+  background-color: #e3e3e3;
+  box-sizing: border-box; }
+
+.primary-bg-color {
+  background-color: #ffffff; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Roman";
+  src: url("../fonts/crimsonroman/CrimsonText-Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Italic";
+  src: url("../fonts/crimsontextitalic/CrimsonText-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Amsdam-Regular";
+  src: url("../fonts/amsdam/Amsdam Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+.hero {
+  background: url("../img/hero/bg-hero.png") no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.hero-content {
+  margin: 198px 0 203px 0;
+  text-align: center;
+  color: #ffffff; }
+
+.first-line {
+  font-family: "CrimsonText-Roman", "Times", serif;
+  font-size: 14px;
+  letter-spacing: 1.4px; }
+
+.headline-container {
+  margin: 23px auto 44px;
+  border: 5px solid transparent;
+  border-image: url("../img/divider-white.png") 55 20 55 0 repeat; }
+
+.headline {
+  padding: 35px 13px 37px 18px;
+  font-family: "Amsdam-Regular", "Helvetica", sans-serif;
+  font-size: 36px;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.89px; }
+
+.arrow {
+  position: relative;
+  top: 62px;
+  right: 95px; }
+
+main {
+  background-color: #e3e3e3;
+  box-sizing: border-box; }
+
+.primary-bg-color {
+  background-color: #ffffff; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Roman";
+  src: url("../fonts/crimsonroman/CrimsonText-Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Italic";
+  src: url("../fonts/crimsontextitalic/CrimsonText-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Amsdam-Regular";
+  src: url("../fonts/amsdam/Amsdam Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+.button-wrapper {
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center; }
+
+.btn {
+  margin: 5px;
+  padding: 15px 26px 15px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  font-family: "Montserrat-Regular", "Helvetica", sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+  cursor: pointer; }
+  .btn:hover {
+    background-color: #ffffff;
+    color: #3e3d3d;
+    border: 2px solid #ffffff; }
+
+.btn-contrast {
+  border: 2px solid #3e3d3d;
+  color: #3e3d3d; }
+  .btn-contrast:hover {
+    background-color: #3e3d3d;
+    color: #cecece;
+    border: 2px solid #3e3d3d; }
+
+main {
+  background-color: #e3e3e3;
+  box-sizing: border-box; }
+
+.primary-bg-color {
+  background-color: #ffffff; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Roman";
+  src: url("../fonts/crimsonroman/CrimsonText-Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Italic";
+  src: url("../fonts/crimsontextitalic/CrimsonText-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Amsdam-Regular";
+  src: url("../fonts/amsdam/Amsdam Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+.top-image {
+  margin-top: 73px; }
+
+main {
+  background-color: #e3e3e3;
+  box-sizing: border-box; }
+
+.primary-bg-color {
+  background-color: #ffffff; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Roman";
+  src: url("../fonts/crimsonroman/CrimsonText-Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Italic";
+  src: url("../fonts/crimsontextitalic/CrimsonText-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Amsdam-Regular";
+  src: url("../fonts/amsdam/Amsdam Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+.section-content {
+  margin-top: 83px;
+  text-align: center;
+  justify-content: space-around; }
+  .section-content .section-headline {
+    width: 186px;
+    margin: auto;
+    padding-bottom: 27px;
+    border-bottom: 5px solid transparent;
+    font-family: "Amsdam-Regular", "Helvetica", sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.44px; }
+  .section-content .content-text {
+    margin: 41px 75px 45px 69px;
+    font-family: "CrimsonText-Roman", "Times", serif;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 1.4px; }
+
+.about-us-headline,
+.history-headline {
+  color: #3e3d3d;
+  border-image: url("../img/divider.png") 25 30 25 20 repeat; }
+
+.about-us-text,
+.history-text {
+  color: #3e3d3d; }
+
+.services-headline {
+  color: #ffffff;
+  border-image: url("../img/divider-white.png") 25 30 25 20 repeat; }
+
+.services-text {
+  color: #cfcfcf; }
+
+main {
+  background-color: #e3e3e3;
+  box-sizing: border-box; }
+
+.primary-bg-color {
+  background-color: #ffffff; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Roman";
+  src: url("../fonts/crimsonroman/CrimsonText-Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Italic";
+  src: url("../fonts/crimsontextitalic/CrimsonText-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Amsdam-Regular";
+  src: url("../fonts/amsdam/Amsdam Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+.achievements-list {
+  margin-top: 39px;
+  padding-bottom: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  text-align: center;
+  color: #3e3d3d;
+  font-family: "Montserrat-Regular", "Helvetica", sans-serif; }
+
+.achievements-item {
+  padding: 10px 80px 0;
+  width: 97px; }
+
+.line {
+  margin-top: 20px;
+  border-left: 2px solid #b0b0b0; }
+
+.achievement-text {
+  margin: 21px auto 28px;
+  width: 75px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.47px; }
+
+.achievement-value {
+  font-size: 45px; }
+
+main {
+  background-color: #e3e3e3;
+  box-sizing: border-box; }
+
+.primary-bg-color {
+  background-color: #ffffff; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Roman";
+  src: url("../fonts/crimsonroman/CrimsonText-Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Italic";
+  src: url("../fonts/crimsontextitalic/CrimsonText-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Amsdam-Regular";
+  src: url("../fonts/amsdam/Amsdam Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+.services {
+  background: url("../img/services/bg-services.png") center no-repeat;
+  background-size: cover; }
+
+main {
+  background-color: #e3e3e3;
+  box-sizing: border-box; }
+
+.primary-bg-color {
+  background-color: #ffffff; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Roman";
+  src: url("../fonts/crimsonroman/CrimsonText-Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Italic";
+  src: url("../fonts/crimsontextitalic/CrimsonText-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Amsdam-Regular";
+  src: url("../fonts/amsdam/Amsdam Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+.skills-list {
+  padding-bottom: 85px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  color: #d8d8d8;
+  letter-spacing: 1.4px; }
+
+.skills-item-border {
+  width: 270px;
+  border-left: 2px solid #d8d8d8;
+  border-bottom: 2px solid #d8d8d8;
+  border-right: 2px solid #d8d8d8; }
+
+.skills-icon {
+  overflow: hidden;
+  margin: 25px 0 -15px; }
+  .skills-icon::before, .skills-icon::after {
+    content: " ";
+    display: inline-block;
+    vertical-align: center;
+    box-sizing: border-box;
+    width: 50%;
+    height: 1px;
+    background: #d8d8d8; }
+  .skills-icon::before {
+    margin: 13px 25px 13px -50%; }
+  .skills-icon::after {
+    margin: 13px -50% 13px 25px; }
+
+.skill-headline {
+  padding: 45px 0 29px;
+  font-family: "Montserrat-Regular", "Helvetica", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase; }
+
+.skill-text {
+  margin: 0 35px 43px;
+  font-family: "CrimsonText-Roman", "Times", serif;
+  font-size: 14px;
+  line-height: 20.31px; }
+
+main {
+  background-color: #e3e3e3;
+  box-sizing: border-box; }
+
+.primary-bg-color {
+  background-color: #ffffff; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Roman";
+  src: url("../fonts/crimsonroman/CrimsonText-Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Italic";
+  src: url("../fonts/crimsontextitalic/CrimsonText-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Amsdam-Regular";
+  src: url("../fonts/amsdam/Amsdam Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+.history {
+  padding-bottom: 82px; }
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #3e3d3d;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px; }
+
+.timeline-start {
+  width: 73px;
+  height: 73px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #3e3d3d;
+  border-radius: 50%;
+  color: #3e3d3d;
+  font-family: "Montserrat-Regular", "Helvetica", sans-serif;
+  font-size: 13px;
+  background: transparent;
+  text-align: center; }
+
+.idea {
+  background-color: #3e3d3d; }
+
+/* Container around content */
+.timeline-container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 43%; }
+
+/* The circles on the timeline */
+.timeline-container::after {
+  content: '';
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  right: -10px;
+  background-color: #3e3d3d;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1; }
+
+/* Place the container to the left */
+.left {
+  left: 0; }
+
+/* Place the container to the right */
+.right {
+  left: 50%; }
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 20px;
+  border: 2px solid #3e3d3d;
+  border-width: 0 0 20px 20px;
+  border-color: transparent transparent transparent #3e3d3d; }
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 20px;
+  border: medium solid #3e3d3d;
+  border-width: 0 20px 20px 0;
+  border-color: transparent #3e3d3d transparent transparent; }
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -9px; }
+
+/* The actual content */
+.content {
+  background-color: transparent;
+  position: relative;
+  border: 2px solid #3e3d3d;
+  color: #3e3d3d;
+  font-family: "Montserrat-Regular", "Helvetica", sans-serif; }
+  .content:hover {
+    background-color: #3e3d3d;
+    color: #d8d8d8; }
+
+.event {
+  padding-top: 29px;
+  padding-left: 23px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1.47px; }
+
+.date {
+  padding: 9px 0 28px 23px;
+  font-size: 11px;
+  line-height: 18px; }
+
+.timeline-text {
+  padding: 0 73px 32px 23px;
+  font-size: 14px;
+  line-height: 20.31px;
+  letter-spacing: 1.4px; }
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+    left: 31px; }
+  /* Full-width containers */
+  .timeline-container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px; }
+  /* Make sure that all arrows are pointing leftwards */
+  .timeline-container::before {
+    left: 60px;
+    border: medium solid #3e3d3d;
+    border-width: 0 20px 20px 0;
+    border-color: transparent #3e3d3d transparent transparent; }
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 22px; }
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%; } }
+
+main {
+  background-color: #e3e3e3;
+  box-sizing: border-box; }
+
+.primary-bg-color {
+  background-color: #ffffff; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+  src: url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Roman";
+  src: url("../fonts/crimsonroman/CrimsonText-Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CrimsonText-Italic";
+  src: url("../fonts/crimsontextitalic/CrimsonText-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Amsdam-Regular";
+  src: url("../fonts/amsdam/Amsdam Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+.our-team {
+  background: url("../img/team/bg-team.png") no-repeat center;
+  background-size: cover; }
+
+.team-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center; }
+
+.team-img {
+  padding: 30px; }
+
+.hover {
+  position: relative;
+  top: -360px;
+  left: 38px;
+  width: 256px;
+  height: 321px;
+  background-color: #f6f6f6;
+  opacity: 0.82; }
+
+.hover-content {
+  width: 146px;
+  margin-bottom: 19px;
+  margin-left: 19px;
+  padding-top: 210px;
+  text-align: left;
+  color: #3e3d3d;
+  border-bottom: 1px solid #3e3d3d; }
+
+.hover-name {
+  font-family: "Montserrat-Regular", "Helvetica", sans-serif;
+  font-size: 13px;
+  letter-spacing: 1.47px; }
+
+.hover-text {
+  padding: 8px 0 9px;
+  font-family: "CrimsonText-Italic", "Times", serif;
+  font-size: 14px; }

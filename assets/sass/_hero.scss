@@ -1,0 +1,44 @@
+@import "variables";
+
+.hero {
+  background: url("../img/hero/bg-hero.png") no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hero-content {
+  margin: 198px 0 203px 0;
+  text-align: center;
+  color: $primary-bg-color;
+}
+
+.first-line {
+  font-family: $secondary-font;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+
+}
+
+.headline-container {
+  margin: 23px auto 44px;
+  border: 5px solid transparent;
+  border-image:url("../img/divider-white.png")  55 20 55 0 repeat;
+}
+
+.headline {
+  //padding: 35px auto 37px auto;
+  padding: 35px 13px 37px 18px;
+  font-family: $tertiary-font;
+  font-size: 36px;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.89px;
+}
+
+.arrow {
+  position: relative;
+  top: 62px;
+  right: 95px;
+}

@@ -1,0 +1,17 @@
+@import "variables";
+
+.social-links {
+  padding-left: 19px;
+  display: flex;
+}
+
+.fab {
+  padding: 3px;
+  color: #a4a4a4;
+  font-size: $quaternary-font-size;
+
+}
+
+.social-links li:not(:first-child):before {
+  content: " | ";
+}

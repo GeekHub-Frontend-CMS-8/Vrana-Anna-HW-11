@@ -1,0 +1,71 @@
+@import "variables";
+
+#nav__main-menu,
+#nav > input {
+  display: none;
+}
+#nav > label {
+  color: $nav-color;
+}
+
+#nav> input:checked + #main-menu {
+  display: block;
+}
+
+#toggle-mobile-menu > input {
+  display: none;
+}
+
+#toggle-mobile-menu > label {
+  font-size: $tertiary-font-size;
+  position: absolute;
+  right: 20px;
+  width: 36px;
+  padding: 0;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#main-menu {
+  display: none;
+}
+
+.menu-item-container {
+  padding: 0 15px;
+  cursor: pointer;
+  justify-content: flex-start;
+
+  &:hover {
+    background-color: $secondary-color;
+    border-left: 2px solid #757575;
+    transition: 0.3;
+  }
+}
+
+.menu-item {
+  color: $nav-color;
+  font-family: $primary-font;
+  font-size: $quaternary-font-size;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-device-width: 768px) {
+  #nav {
+    height: auto;
+  }
+  #nav #main-menu {
+    display: flex;
+  }
+  #nav > label {
+    display: none
+  }
+  #nav ul li {
+    display: inline-block;
+  }
+}
